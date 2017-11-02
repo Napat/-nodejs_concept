@@ -1,14 +1,16 @@
 # Node.js   
-คือ Web Server ซึ่งเขียนด้วยภาษา JavaScript คุณสมบัติทั่วไปคือ เป็น Open Source และเป็น Cross Platform Runtime Environment สำหรับฝั่ง Server  
+- node คือ Web Server ซึ่งเขียนด้วยภาษา JavaScript คุณสมบัติทั่วไปคือ เป็น Open Source และเป็น Cross Platform Runtime Environment สำหรับฝั่ง Server  
 [Download & Install](http://nodejs.org/download)  
- 
-ตรวจสอบ version ได้ดังนี้  
+-  npm(Node Package Manager) คือตัวช่วยจัดการ package ของ node ตัวอย่างเช่น เราสร้าง application ชื่อ app01 และต้องการใช้ package (package คือโปรแกรมหรือโมดูลต่างๆที่เขียนเอาไว้ให้สามารถนำไปใช้งานต่อได้ ) ชื่อว่า lodash ก็สามารถติดตั้งลงใน application ได้ด้วยคำสั่่ง `npm install lodash` ก็จะเกิดโฟลเดอร์ app01/node_modules\lodash เกิดขึ้น เป็นต้น
+
+ตรวจสอบ version ของ node และ npm ที่ติดตั้งอยู่ได้ดังนี้  
 ```
 $ node -v
 v8.9.0
 $ npm -v
 5.5.1
 ```
+
 
 # Node console(Javascript Terminal)  
 ```
@@ -76,5 +78,11 @@ Server running at http://127.0.0.1:3000/
 ```
 
 ทดลองเปิด browser ด้วย url: http://127.0.0.1:3000/ ก็จะพบกับคำว่า "Hello World" ปรากฏอยู่
+
+
+---------------------------------------------
+
+- [new application & install package](/newproject.md)  
+
 
 
